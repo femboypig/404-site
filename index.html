@@ -43,11 +43,11 @@
     <div>
         <h1>Ошибка 404</h1>
         <p>Страница недоступна</p>
-        <button onclick="closePage()">Закрыть страницу</button>
+        <button onclick="goHome()">На главную</button>
     </div>
     <script>
-        function closePage() {
-            window.close();
+        function goHome() {
+            window.location.href = 'google.com'; // Измените '/' на нужный URL
         }
     </script>
 </body>
